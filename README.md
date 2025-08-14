@@ -18,7 +18,7 @@ In this lab, we:
 ## Files
 
 ### 1. [ModelSelectionForLogisticRegression.ipynb](https://github.com/CamilaLightfoot/Machine-Learning-Life-Cycle-Evaluation-and-Deployment/blob/main/ModelSelectionForLogisticRegression%20(3).ipynb)
-A Jupyter Notebook containing the full Lab 5 workflow:
+A Jupyter Notebook containing the full project Evaluation and Deployment workflow:
 - Data preparation and splitting.
 - Model training and evaluation.
 - Hyperparameter tuning using `GridSearchCV`.
@@ -26,11 +26,13 @@ A Jupyter Notebook containing the full Lab 5 workflow:
 - Feature selection using `SelectKBest`.
 - Saving the final model to a `.pkl` file.
 
-### 2. **best_model.pkl**
+### 2. [best_model.pkl](https://github.com/CamilaLightfoot/Machine-Learning-Life-Cycle-Evaluation-and-Deployment/blob/main/best_model.pkl)
 Serialized Logistic Regression model (best-performing version) saved using `pickle`:
 - Can be loaded in any Python environment to make predictions without retraining.
 
-## Database used: [airbnbData_train.csv]
+### 3. [ML Life Cycle_Evaluation and.pdf](https://github.com/CamilaLightfoot/Machine-Learning-Life-Cycle-Evaluation-and-Deployment/blob/main/ML%20Life%20Cycle_Evaluation%20and.pdf)
+
+## Database used: [airbnbData_train.csv](https://github.com/CamilaLightfoot/Machine-Learning-Life-Cycle-Evaluation-and-Deployment/blob/main/Database/airbnbData_train%20(2).csv)
 Prepared dataset containing Airbnb NYC listing data:
 - Includes numerical and one-hot encoded categorical features.
 - Target variable prepared for classification with Logistic Regression.
