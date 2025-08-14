@@ -17,7 +17,7 @@ In this lab, we:
 
 ## Files
 
-### 1. **ModelSelectionForLogisticRegression.ipynb**
+### 1. [ModelSelectionForLogisticRegression.ipynb](https://github.com/CamilaLightfoot/Machine-Learning-Life-Cycle-Evaluation-and-Deployment/blob/main/ModelSelectionForLogisticRegression%20(3).ipynb)
 A Jupyter Notebook containing the full Lab 5 workflow:
 - Data preparation and splitting.
 - Model training and evaluation.
