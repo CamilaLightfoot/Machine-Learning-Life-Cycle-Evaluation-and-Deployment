@@ -48,6 +48,28 @@ Prepared dataset containing Airbnb NYC listing data:
 
 ### Option 1: Jupyter Notebook
 git clone https://github.com/yourusername/Lab5-ML-Evaluation-Deployment.git
+
 cd Lab5-ML-Evaluation-Deployment
+
 pip install -r requirements.txt
+
 jupyter notebook ModelSelectionForLogisticRegression.ipynb
+
+## Using the Saved Model
+```python
+# Using the Saved Model
+import pickle
+import pandas as pd
+
+# Load the saved model
+with open('best_model.pkl', 'rb') as file:
+    model = pickle.load(file)
+
+# Example prediction (replace with your real feature columns/values)
+X_new = pd.DataFrame({
+    # "feature_1": [value1],
+    # "feature_2": [value2],
+    # ...
+})
+predictions = model.predict(X_new)
+print(predictions)
